@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #303641;
+  overflow: hidden;
+  background-image: url(https://previews.123rf.com/images/9dreamstudio/9dreamstudio1707/9dreamstudio170703831/83066480-sport-background-ping-pong-racket-on-grey-background-top-view-.jpg);
+  background-size: cover;
+  position: relative;
+  font-family: cursive;
+}
+.head{
+  font-family: 'Architects Daughter', cursive;
+}
+h1{
+  font-size: 5rem;
+  margin-top: 4rem;
+margin-bottom: 1rem;
+}
+h2{
+  font-size: 2.5rem;
+margin-bottom: 2rem;
+}
+h3{
+  font-size: 2rem;
+}
+
+h4{
+  font-size: 1.27rem;
+}
+
+p{
+  font-size: 1rem;
+
+}
+
+.objective{
+  /* float: left; */
+  position: absolute;
+  margin-left: 3rem;
+  /* margin: auto; */
+  color: black;
+  background-color: white;
+  width: 35rem;
+  padding: 1.25rem;
+  border: solid;
+  border-width: .5rem;
+  border-radius: 4rem;
+  font-size: 1.55rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.rules{
+  padding: 1.25rem;
+  position: absolute;
+  border: solid;
+  border-color: white;
+  border-width: .5rem;
+  border-radius: 4rem;
+  right: 2rem;
+}
+.single{
+  margin-bottom: 1.5rem;
+}
+.goback{
+    font-family: 'Black Ops One', cursive;
+    font-weight: bolder;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20rem;
+    right: 37rem;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.goback:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
